@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-transparent text-slate-100 antialiased;
+  }
+}
+
+@keyframes orbit-1 {
+  0% {
+    transform: rotate(0deg) translateX(110px) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(110px) rotate(-360deg);
+  }
+}
+
+@keyframes orbit-2 {
+  0% {
+    transform: rotate(72deg) translateX(110px) rotate(-72deg);
+  }
+
+  100% {
+    transform: rotate(432deg) translateX(110px) rotate(-432deg);
+  }
+}
+
+@keyframes orbit-3 {
+  0% {
+    transform: rotate(144deg) translateX(110px) rotate(-144deg);
+  }
+
+  100% {
+    transform: rotate(504deg) translateX(110px) rotate(-504deg);
+  }
+}
+
+@keyframes orbit-4 {
+  0% {
+    transform: rotate(216deg) translateX(110px) rotate(-216deg);
+  }
+
+  100% {
+    transform: rotate(576deg) translateX(110px) rotate(-576deg);
+  }
+}
+
+@keyframes orbit-5 {
+  0% {
+    transform: rotate(288deg) translateX(110px) rotate(-288deg);
+  }
+
+  100% {
+    transform: rotate(648deg) translateX(110px) rotate(-648deg);
+  }
+}
