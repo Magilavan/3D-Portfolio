@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://magilavan.github.io/3D-Portfolio/sitemap.xml
