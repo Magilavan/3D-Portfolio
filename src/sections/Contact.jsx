@@ -14,9 +14,9 @@ const Contact = () => {
     setFormStatus('animating')
 
     // IMPORTANT: Replace these with your actual EmailJS credentials
-    const serviceID = 'service_dwcn38r'
-    const templateID = 'template_239yihf'
-    const publicKey = 'DY9vpa1S3y_XzpYO1'
+    const serviceID = import.meta.env.VITE_SERVICE_ID
+    const templateID = import.meta.env.VITE_TEMPLATE_ID
+    const publicKey = import.meta.env.VITE_PUBLIC_KEY
 
     emailjs.sendForm(serviceID, templateID, formRef.current, publicKey)
       .then(() => {
