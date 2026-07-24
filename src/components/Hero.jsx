@@ -58,7 +58,7 @@ export default function Hero() {
             <FieldMesh />
           </Suspense>
           <div className="pointer-events-none absolute bottom-3 left-3 font-mono text-[10px] tracking-widest text-ink-faint">
-            FIELD.MESH — LIVE RENDER
+            METAL.HUMAN — VISUAL
           </div>
         </motion.div>
       </div>
